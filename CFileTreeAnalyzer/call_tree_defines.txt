@@ -1,0 +1,41 @@
+# ============================================
+# C Preprocessor / Call Tree Analyzer 配置文件
+# ============================================
+# 每行一条配置，# 开头是注释
+# 脚本启动时自动读取当前目录下的这个文件
+#
+# 【输入目录】以 input: 开头
+#   input: ./src
+#
+# 【输出目录】以 output: 开头
+#   output: ./_preprocessed
+#
+# 【头文件搜索路径】以 include: 开头
+#   include: ./inc
+#
+# 【宏开关】直接写宏名
+#   CHIP_RK3568
+# ============================================
+
+# 输入目录（要预处理的 C 代码目录）
+input: ./PDT
+
+# 预处理输出目录
+output: ./_preprocessed
+
+# 头文件搜索路径（#include "xxx.h" 会在这些目录里找）
+include: ./src
+
+# 芯片型号
+# CHIP_RK3568
+
+# 功能模块开关
+# LINUX
+LINUX
+
+# 算法版本
+# ALG_V1
+# ALG_V2
+
+# 调试开关
+# DEBUG_MODE
