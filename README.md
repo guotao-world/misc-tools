@@ -7,6 +7,7 @@
 <!-- TOC START -->
 - [CFileTreeAnalyzer](./CFileTreeAnalyzer)
   C Call Tree Analyzer
+- [GBK转UTF-8](./GBK转UTF-8)
 <!-- TOC END -->
 
 ---
@@ -20,3 +21,4 @@
 ## 📂 目录结构
 
 - `CFileTreeAnalyzer/` — C 代码调用树分析工具（预处理 + 调用关系提取 + 可折叠树输出）
+- `GBK转UTF-8/` — 批量编码转换工具（GBK → UTF-8）
