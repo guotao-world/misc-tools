@@ -7,7 +7,10 @@
 <!-- TOC START -->
 - [CFileTreeAnalyzer](./CFileTreeAnalyzer)
   C Call Tree Analyzer
+- [Excel操作](./Excel操作)
 - [GBK转UTF-8](./GBK转UTF-8)
+- [PCM转WAV](./PCM转WAV)
+  PCM转WAV
 <!-- TOC END -->
 
 ---
@@ -21,4 +24,6 @@
 ## 📂 目录结构
 
 - `CFileTreeAnalyzer/` — C 代码调用树分析工具（预处理 + 调用关系提取 + 可折叠树输出）
+- `Excel操作/` — Excel 读写与处理脚本
 - `GBK转UTF-8/` — 批量编码转换工具（GBK → UTF-8）
+- `PCM转WAV/` — 裸 PCM 封装为标准 WAV 文件
